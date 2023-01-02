@@ -10,6 +10,8 @@
       name: wireshark
       state: latest
 
+# -------------------------------------------
+
 - name: update LB server
   hosts: lb
   remote_user: ubuntu
@@ -18,7 +20,7 @@
   tasks:
   - name: ensure wireshark is at latest version
     apt:
-      name: wireshark
+      name: wireshark-qt
       state: latest
 
             
