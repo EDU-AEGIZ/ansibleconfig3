@@ -19,14 +19,20 @@
     dest: /var/www/html
     force: yes
 
--name: copy html content to one level
+-name: copy html content to one level up
  become: ture
- ansible.builtin.service
+ command: cp -r /var/www/html/ /var/www/
+    name: httpd
+    state: started
+
+-name: Start service httpd, if not started
+ become: ture
+ ansible.builtin.service:
     name: httpd
     state: started
 
 -name: recursively remove /var/www/html/ directory
  become: ture
-ansible.builtin.file
+ ansible.builtin.file
    path: /var/www/html/html
-   state: aabsent
+   state: absent
