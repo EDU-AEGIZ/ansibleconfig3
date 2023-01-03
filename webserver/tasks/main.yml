@@ -6,33 +6,33 @@
     state: present
 
 
--name: install git
- become; true
- ansilbe.builtin.yum:
-   name: "git"
-   state: present
+- name: install git
+  become; true
+  ansilbe.builtin.yum:
+    name: "git"
+    state: present
 
--name: clone a repo
- become: ture
- ansilbe.builtin.git:
+- name: clone a repo
+  become: ture
+  ansilbe.builtin.git:
     repo: https://github.com/EDU-AEGIZ/ansibleconfig3.git
     dest: /var/www/html
     force: yes
 
--name: copy html content to one level up
- become: ture
- command: cp -r /var/www/html/ /var/www/
+- name: copy html content to one level up
+  become: ture
+  command: cp -r /var/www/html/ /var/www/
     name: httpd
     state: started
 
--name: Start service httpd, if not started
- become: ture
- ansible.builtin.service:
+- name: Start service httpd, if not started
+  become: ture
+  ansible.builtin.service:
     name: httpd
     state: started
 
--name: recursively remove /var/www/html/ directory
- become: ture
- ansible.builtin.file
-   path: /var/www/html/html
-   state: absent
+- name: recursively remove /var/www/html/ directory
+  become: ture
+  ansible.builtin.file
+    path: /var/www/html/html
+    state: absent
