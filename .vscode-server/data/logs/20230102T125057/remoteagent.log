@@ -1,0 +1,6 @@
+2023-01-02 12:50:57.448 [info] Extension host agent started.
+2023-01-02 12:50:57.615 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2023-01-02 12:50:57.683 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2023-01-02 12:50:58.359 [info] [127.0.0.1][873af0ed][ManagementConnection] New connection established.
+2023-01-02 12:50:58.805 [info] [127.0.0.1][be4c8abf][ExtensionHostConnection] New connection established.
+2023-01-02 12:50:58.810 [info] [127.0.0.1][be4c8abf][ExtensionHostConnection] <1283> Launched Extension Host Process.
