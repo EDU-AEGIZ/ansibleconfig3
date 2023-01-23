@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "material-icon-theme",
+    "remote.SSH.remotePlatform": {
+        "jenkins-ansible": "linux"
+    },
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "window.zoomLevel": -1
+}

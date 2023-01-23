@@ -1,0 +1,10 @@
+[Trace 13:02:06.069] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/ubuntu/roles/nginx/README.md
+[Trace 13:02:06.071] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/ubuntu/roles/nginx/README.md
+[Trace 13:02:06.081] Server: connection.languages.diagnostics.on: file:///home/ubuntu/roles/nginx/README.md
+[Trace 13:02:06.102] Server: connection.languages.diagnostics.on: file:///home/ubuntu/roles/nginx/README.md
+[Trace 13:02:06.640] DocumentSymbolProvider: provideDocumentSymbols — file:///home/ubuntu/roles/nginx/README.md 1
+[Debug 13:02:06.641] LinkProvider: compute - file:///home/ubuntu/roles/nginx/README.md
+[Debug 13:02:06.920] MdFoldingProvider: provideFoldingRanges — file:///home/ubuntu/roles/nginx/README.md 1
+[Debug 13:02:06.921] TableOfContentsProvider: create - file:///home/ubuntu/roles/nginx/README.md
+[Trace 13:07:27.491] VsCodeClientWorkspace: TextDocument.onDidClose: file:///home/ubuntu/roles/nginx/README.md
+[Trace 13:07:27.491] VsCodeClientWorkspace: deleteDocument: file:///home/ubuntu/roles/nginx/README.md

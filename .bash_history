@@ -119,3 +119,24 @@ git add .
 t commit -m e"edited mysql file"
 git commit -m e"edited mysql file"
 git push --set-upstream origin roles-feature
+git status
+git add .
+git commit -m "edited mysql"
+git push
+git checkout maimn
+git checkout main
+git status
+cd roles/
+git checkout main
+ansible-galaxy install geerlingguy.nginx
+sudo ansible-galaxy install geerlingguy.nginx
+sudo ansible-galaxy install geerlingguy.apache
+mv geerlingguy.apache/ apache
+mv geerlingguy.nginx/ nginx
+cd roles/
+git status
+git add .
+git commit -m "edited apache"
+git push
+git push origin main
+git push
