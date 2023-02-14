@@ -1,5 +1,0 @@
----
-- hosts: db
-  roles:
-    - mysql
-  become: ture
