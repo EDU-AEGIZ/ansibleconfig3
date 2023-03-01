@@ -1,5 +1,5 @@
 ---
 - hosts: db
-  roles:
-    - mysql
-  become: ture
+  become: true
+  roles: 
+  - mysql
