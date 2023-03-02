@@ -19,7 +19,7 @@
 
       stage('Checkout SCM') {
          steps{
-            git branch: 'feature/jenkinspipeline-stage', url: 'https://github.com/EDU-AEGIZ/ansibleconfig3.git'
+            git branch: 'main', url: 'https://github.com/EDU-AEGIZ/ansibleconfig3.git'
          }
        }
 
