@@ -1,4 +1,7 @@
----
-- hosts: artifactory
-  become: true
-  roles: - artifactory 
+ ---
+
+- name: install artifactory
+  hosts: artifactory
+  become: yes
+  roles:
+  - artifactory:
