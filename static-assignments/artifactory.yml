@@ -2,4 +2,4 @@
 - hosts: artifactory
   become: yes
   roles:
-  - artifactory
+   - artifactory
