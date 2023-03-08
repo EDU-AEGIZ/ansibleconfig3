@@ -1,3 +1,6 @@
+[jenkins]
+172.31.17.147   ansible_ssh_user='ec2-user'
+
 [nginx]
 172.31.56.255 ansible_ssh_user='ec2-user'
 
