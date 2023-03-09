@@ -105,12 +105,12 @@ mysql_config_include_files: []
 #  - src: path/relative/to/playbook/file.cnf
 #  - { src: path/relative/to/playbook/anotherfile.cnf, force: yes }
 
-# Databases.
-# mysql_databases:
-#   - name: tooling
-#     collation: utf8_general_ci
-#     encoding: utf8
-#     replicate: 1
+Databases.
+mysql_databases:
+  - name: tooling
+    collation: utf8_general_ci
+    encoding: utf8
+    replicate: 1
 
 mysql_databases:
   - name: homestead
@@ -118,12 +118,12 @@ mysql_databases:
     encoding: utf8
     replicate: 1
 
-# Users.
-# mysql_users:
-#   - name: webaccess
-#     host: 0.0.0.0
-#     password: secret
-#     priv: '*.*:ALL,GRANT'
+Users.
+mysql_users:
+  - name: webaccess
+    host: 0.0.0.0
+    password: secret
+    priv: '*.*:ALL,GRANT'
 
 mysql_users:
   - name: homestead
