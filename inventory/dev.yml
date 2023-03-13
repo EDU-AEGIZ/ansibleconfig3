@@ -1,11 +1,11 @@
 [jenkins]
-172.31.17.147 ansible_ssh_user='ec2-user'
+172.31.44.16 ansible_ssh_user='ec2-user'
 
 [nginx]
-172.31.56.255 ansible_ssh_user='ec2-user'
+172.31.33.185 ansible_ssh_user='ec2-user'
 
 [db]
-172.31.50.212 ansible_ssh_user='ubuntu'
+172.31.44.105 ansible_ssh_user='ubuntu'
 
 [artifactory]
-172.31.28.237 ansible_ssh_user='ec2-user'
+172.31.46.93 ansible_ssh_user='ec2-user'
