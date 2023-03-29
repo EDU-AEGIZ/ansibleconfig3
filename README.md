@@ -40,8 +40,7 @@ source ~/.bash_profile
 =====================================
 - yum module reset php -y
 - yum module enable php:remi-7.4 -y
-- yum install -y php  php-common php-mbstring php-opcache php-intl php-xml php-gd php-curl php-mysqlnd    
-php-fpm php-json
+- yum install -y php  php-common php-mbstring php-opcache php-intl php-xml php-gd php-curl php-mysqlnd php-fpm php-json
 - systemctl start php-fpm
 - systemctl enable php-fpm
 
@@ -77,6 +76,8 @@ DB_PORT=3306
 
 sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 sudo yum install mysql -y
+
+================================================================ 
 
 Learn how to install Jenkins [here](https://www.jenkins.io/doc/book/installing/)
 

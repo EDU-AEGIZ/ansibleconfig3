@@ -9,3 +9,6 @@
 
 [artifactory]
 172.31.42.20 ansible_ssh_user='ec2-user'
+
+[todo]
+172.31.5.136 ansible_ssh_user='ec2-user'
