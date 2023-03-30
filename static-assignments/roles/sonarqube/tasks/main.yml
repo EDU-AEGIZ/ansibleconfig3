@@ -34,15 +34,15 @@
     value: 262144
     state: present
 
-- name: "Ensure JAVA is installed"
-  command: "java -version"
-  register: prereq_java
-  changed_when: false
+# - name: "Ensure JAVA is installed"
+#   command: "java -version"
+#   register: prereq_java
+#   changed_when: false
 
-# - name: "Fail if JAVA is not available"
-#   fail:
-#     msg: "JAVA is not installed or configured"
-#   when: not prereq_java.rc == 0
+- name: "Fail if JAVA is not available"
+  fail:
+    msg: "JAVA is not installed or configured"
+  when: not prereq_java.rc == 0
 
 - name: "Execute Debian specific tasks"
   include_tasks: setup_debian.yml
