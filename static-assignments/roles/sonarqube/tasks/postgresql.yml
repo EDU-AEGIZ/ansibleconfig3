@@ -41,7 +41,7 @@
   become_user: postgres
   community.postgresql.postgresql_user:
     db: sonarqube
-    name: sonar
-    password: sonar
+    name: sona1
+    password: Chinedu1.
     priv: "ALL"
    
